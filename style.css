@@ -1,26 +1,31 @@
 
 /* Extra small devices (phones, 600px and down) */
 @media screen and (max-width: 600px) {
-  .keys {width:25px}
+  .keys {width:35px}
+  .keyboard{height:150px}
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
-  .keys {width:45px}
+  .keys {width:55px}
+  .keyboard{height:200px}
 }
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
   .keys {width:60px}
+  .keyboard{height:250px}
 } 
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
   .keys {width:100px}
+  .keyboard{height:300px}
 } 
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
   .keys {width:125px}
+  .keyboard{height:300px}
 
 }
 
@@ -59,7 +64,7 @@ header p{
 .keyboard{
 	background-color: grey;
 	border:10px solid grey;
-	height:300px;
+	/*height:300px;*/
 	display:flex;
 	flex-wrap: nowrap;
 	flex-direction: row;
