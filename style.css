@@ -1,3 +1,29 @@
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .keys {width:25px}
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .keys {width:35px}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .keys {width:50px}
+} 
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .keys {width:100px}
+} 
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .keys {width:125px}
+
+}
+
 *{
 	margin:0;
 	padding:0;
@@ -8,14 +34,19 @@ body{
 	
 	text-align: center;
 	margin:auto;
-	background-image: url(piano_pic.jpg);
-	background-repeat: no-repeat;
+	background-color: black;
 	background-size: cover;
 	overflow-x: hidden;
-	/*font-family: 'Josefin Sans', sans-serif;*/
 	font-family: 'Pacifico', cursive;
+	letter-spacing: .2rem;
+	color:white;
 }
 
+header p{
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 20px;
+	margin-top: 10px;
+}
 
 #myApp{
 	height:100vh;
@@ -29,8 +60,8 @@ body{
 	background-color: grey;
 	border:10px solid grey;
 	height:300px;
-	
 	display:flex;
+	flex-wrap: nowrap;
 	flex-direction: row;
 
 
@@ -38,13 +69,14 @@ body{
 .keys{
 	background-color: white;
 	border:2px solid grey;
-	width:100px;
+	/*width:100px;*/
 
 }
 
 .keys:hover{
 	cursor: pointer;
-	box-shadow: 5px 0px 5px 0px silver;
+	box-shadow: 5px 0px 5px 0px white;
+	background-color: grey;
 
 }
 
@@ -58,4 +90,7 @@ header h1{
 	font-size: 40px;
 	margin-top: 100px;
 
+}
+footer p{
+	font-family: 'Ubuntu', sans-serif;
 }
