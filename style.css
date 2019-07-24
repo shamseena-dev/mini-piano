@@ -11,7 +11,8 @@ body{
 	background-image: url(piano_pic.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
-
+	overflow-x: hidden;
+	font-family: 'Josefin Sans', sans-serif;
 	
 }
 
