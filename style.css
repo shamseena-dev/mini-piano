@@ -5,15 +5,15 @@
 }
 
 body{
-	/*background-color: lightblue;*/
+	
 	text-align: center;
 	margin:auto;
 	background-image: url(piano_pic.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
 	overflow-x: hidden;
-	font-family: 'Josefin Sans', sans-serif;
-	
+	/*font-family: 'Josefin Sans', sans-serif;*/
+	font-family: 'Pacifico', cursive;
 }
 
 
